@@ -1,0 +1,40 @@
+# >>> TROQUE "SEU_USUARIO/SEU_REPOSITORIO" pelo repositório do GitHub do site <<<
+backend:
+  name: github
+  repo: https://github.com/DaviCosta2009/powerupSite
+  branch: main
+locale: pt
+media_folder: images
+public_folder: /images
+collections:
+  - name: catalogo
+    label: Catálogo powerUp
+    files:
+      - name: itens
+        label: Produtos, veículos e serviços
+        file: data/items.json
+        fields:
+          - label: Itens
+            name: itens
+            widget: list
+            summary: "{{fields.tipo}} · {{fields.name}}"
+            fields:
+              - {label: Tipo, name: tipo, widget: select, options: [{label: Eletrônico, value: eletronicos}, {label: Veículo, value: veiculos}, {label: Serviço realizado, value: servicos}]}
+              - {label: Nome, name: name, widget: string}
+              - {label: Código único (sem espaços, ex.: hilux-2021), name: id, widget: string}
+              - {label: Categoria, name: cat, widget: string, hint: "Ex.: SUV, Notebooks, CFTV. Categorias novas aparecem no filtro sozinhas."}
+              - {label: Preço (R$, só números), name: price, widget: number, required: false, hint: "Deixe vazio em serviços."}
+              - {label: Local (só para serviços), name: local, widget: string, required: false}
+              - {label: Descrição, name: desc, widget: text}
+              - label: Especificações
+                name: specs
+                widget: list
+                required: false
+                field: {label: Item, name: item, widget: string}
+              - label: Fotos (4 ou mais)
+                name: imgs
+                widget: list
+                required: false
+                field: {label: Foto, name: foto, widget: image}
+              - {label: Vídeo (opcional), name: video, widget: file, required: false, media_folder: /videos, public_folder: /videos}
+              - {label: Visível no site, name: ativo, widget: boolean, default: true}

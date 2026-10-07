@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>powerUp | Tecnologia, Segurança e Mobilidade em São Paulo</title>
+<meta name="description" content="Eletrônicos, instalação de CFTV e redes, e veículos inspecionados em São Paulo.">
+<link rel="icon" href="images/logoPower.png">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#inicio" data-tab="inicio"><img src="images/logoPower.png" alt="" width="34" height="34">power<b>Up</b></a>
+    <nav id="tabs" aria-label="Seções">
+      <button data-tab="inicio">Início</button>
+      <button data-tab="eletronicos">Eletrônicos</button>
+      <button data-tab="veiculos">Veículos</button>
+      <button data-tab="servicos">Serviços realizados</button>
+      <button data-tab="contato" class="cta">Orçamento</button>
+    </nav>
+  </div>
+</header>
+<main>
+<section id="inicio" class="tab">
+  <div class="hero"><div class="wrap">
+    <h1>Tecnologia que liga.<br>Mobilidade que anda.</h1>
+    <p>Venda e conserto de eletrônicos, instalação de câmeras e redes, e veículos inspecionados. Atendimento em toda a Grande São Paulo.</p>
+    <div class="row"><button class="btn" data-tab="eletronicos">Ver eletrônicos</button><button class="btn ghost" data-tab="veiculos">Ver veículos</button></div>
+    <ul class="stats"><li><b>+100</b>instalações entregues</li><li><b>90 dias</b>de garantia mínima nos produtos</li><li><b>+30</b>Anos de experiência na área</li></ul>
+  </div></div>
+  <div class="wrap pillars">
+    <article><h2>Eletrônicos</h2><p>PCs, notebooks, placas de vídeo e periféricos, novos e seminovos testados.</p><button class="link" data-tab="eletronicos">Abrir galeria</button></article>
+    <article><h2>Serviços</h2><p>CFTV, redes, cabeamento, manutenção e formatação, com projeto e acabamento limpo.</p><button class="link" data-tab="servicos">Ver trabalhos feitos</button></article>
+    <article><h2>Veículos</h2><p>Carros vistoriados, com laudo aprovado e garantia de motor e câmbio.</p><button class="link" data-tab="veiculos">Abrir galeria</button></article>
+  </div>
+</section>
+<section id="eletronicos" class="tab"><div class="wrap"><h2 class="title">Eletrônicos</h2><p class="sub">Clique em um produto para ver fotos, vídeo e descrição completa.</p><div class="catalog" data-key="eletronicos"></div></div></section>
+<section id="veiculos" class="tab"><div class="wrap"><h2 class="title">Veículos</h2><p class="sub">Todos inspecionados, com laudo cautelar e procedência verificada.</p><div class="catalog" data-key="veiculos"></div></div></section>
+<section id="servicos" class="tab"><div class="wrap"><h2 class="title">Serviços realizados</h2><p class="sub">Projetos entregues em residências e empresas de São Paulo.</p><div class="catalog" data-key="servicos"></div></div></section>
+<section id="contato" class="tab"><div class="wrap two">
+  <div><h2 class="title">Peça seu orçamento</h2><p class="sub">Conte o que você precisa. Respondemos pelo WhatsApp em horário comercial.</p>
+  <ul class="info"><li>São Paulo – SP (capital e Grande SP)</li><li>(11) 94654-0600</li><li>ale_rava2007@hotmail.com</li><li>Seg a sáb, 9h às 18h</li></ul></div>
+  <form id="form">
+    <label>Nome<input name="nome" required autocomplete="name"></label>
+    <label>Assunto<select name="assunto"><option>Eletrônicos</option><option>Veículos</option><option>Instalação de câmeras / rede</option><option>Manutenção / formatação</option></select></label>
+    <label>Mensagem<textarea name="msg" rows="4" required></textarea></label>
+    <button class="btn" type="submit">Enviar pelo WhatsApp</button>
+  </form>
+</div></section>
+</main>
+<footer><div class="wrap foot"><span>© 2026 powerUp. Atendimento em São Paulo – SP.</span><span>ale_rava2007@hotmail.com</span></div></footer>
+<dialog id="modal" aria-label="Detalhes"><button class="x" aria-label="Fechar">×</button><div id="mbody"></div></dialog>
+<script src="js/app.js"></script>
+</body>
+</html>

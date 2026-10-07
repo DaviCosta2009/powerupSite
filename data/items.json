@@ -1,0 +1,250 @@
+{
+  "itens": [
+    {
+      "tipo": "eletronicos",
+      "id": "pc-gamer",
+      "name": "PC Gamer Custom (Ryzen 5, 16GB, RTX 3060)",
+      "cat": "Computadores",
+      "price": 4200,
+      "desc": "Montado e testado em bancada, com cabeamento organizado e 90 dias de garantia. Roda os principais jogos em Full HD/1440p.",
+      "specs": [
+        "Ryzen 5 + 16GB DDR4",
+        "RTX 3060 12GB",
+        "SSD NVMe 500GB",
+        "Fonte 650W 80 Plus"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "eletronicos",
+      "id": "notebook-corp",
+      "name": "Notebook corporativo seminovo (Dell/Lenovo/HP)",
+      "cat": "Notebooks",
+      "price": 2500,
+      "desc": "Linha empresarial revisada, com bateria testada, SSD novo e Windows instalado. Ideal para trabalho e estudo.",
+      "specs": [
+        "Core i5 8ª/10ª geração",
+        "8GB RAM",
+        "SSD 256GB",
+        "Garantia de 90 dias"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "eletronicos",
+      "id": "placa-video",
+      "name": "Placa de vídeo RTX 3060 12GB",
+      "cat": "Hardware",
+      "price": 1850,
+      "desc": "Placa testada sob carga, com troca de pasta térmica. Outros modelos sob consulta.",
+      "specs": [
+        "12GB GDDR6",
+        "Testada em stress test",
+        "Pasta térmica nova"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "eletronicos",
+      "id": "teclado",
+      "name": "Teclado mecânico TKL switch red",
+      "cat": "Periféricos",
+      "price": 280,
+      "desc": "Teclado compacto com iluminação RGB, switches lineares e estrutura firme.",
+      "specs": [
+        "Layout ABNT2",
+        "Hot-swap",
+        "RGB"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "eletronicos",
+      "id": "headset",
+      "name": "Headset gamer 7.1",
+      "cat": "Periféricos",
+      "price": 190,
+      "desc": "Áudio surround virtual, microfone com cancelamento de ruído e almofadas macias.",
+      "specs": [
+        "USB",
+        "Microfone destacável",
+        "PC e consoles"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "eletronicos",
+      "id": "pc-office",
+      "name": "PC Office i5 + SSD",
+      "cat": "Computadores",
+      "price": 1900,
+      "desc": "Computador silencioso e rápido para escritório, loja ou home office.",
+      "specs": [
+        "Core i5",
+        "8GB RAM",
+        "SSD 240GB",
+        "Windows licenciado"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "veiculos",
+      "id": "suv-premium",
+      "name": "SUV Premium 2.0 Turbo 2021",
+      "cat": "SUV",
+      "price": 139900,
+      "desc": "Único dono, revisões em dia e laudo cautelar aprovado. Garantia de motor e câmbio.",
+      "specs": [
+        "48.000 km",
+        "Automático",
+        "Teto solar",
+        "Laudo aprovado"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "veiculos",
+      "id": "sedan-exec",
+      "name": "Sedan Executivo 2.0 2020",
+      "cat": "Sedan",
+      "price": 98500,
+      "desc": "Conforto e acabamento de topo, ideal para uso diário e viagens.",
+      "specs": [
+        "62.000 km",
+        "Automático",
+        "Couro",
+        "Câmera de ré"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "veiculos",
+      "id": "hatch-eco",
+      "name": "Hatch 1.0 Flex 2022",
+      "cat": "Hatch",
+      "price": 64900,
+      "desc": "Econômico e fácil de estacionar, perfeito para o trânsito de São Paulo.",
+      "specs": [
+        "31.000 km",
+        "Manual",
+        "Ar-condicionado",
+        "Multimídia"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "veiculos",
+      "id": "hibrido",
+      "name": "Híbrido 1.8 Flex 2021",
+      "cat": "Híbrido",
+      "price": 119000,
+      "desc": "Baixíssimo consumo na cidade, com bateria revisada e histórico completo.",
+      "specs": [
+        "40.000 km",
+        "Automático CVT",
+        "Laudo aprovado"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "veiculos",
+      "id": "suv-compacto",
+      "name": "SUV Compacto 1.0 Turbo 2022",
+      "cat": "SUV",
+      "price": 92000,
+      "desc": "Posição de dirigir elevada e motor turbo econômico.",
+      "specs": [
+        "28.000 km",
+        "Automático",
+        "Multimídia",
+        "Sensor de ré"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "veiculos",
+      "id": "sedan-comp",
+      "name": "Sedan Compacto 1.6 2019",
+      "cat": "Sedan",
+      "price": 56900,
+      "desc": "Porta-malas amplo e baixo custo de manutenção.",
+      "specs": [
+        "70.000 km",
+        "Manual",
+        "Direção elétrica",
+        "Revisado"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "servicos",
+      "id": "cftv-casa",
+      "name": "CFTV residencial com 8 câmeras",
+      "cat": "CFTV",
+      "local": "Moema, São Paulo",
+      "desc": "Projeto completo com gravação em DVR, acesso remoto pelo celular e cabeamento embutido.",
+      "specs": [
+        "8 câmeras Full HD",
+        "DVR 2TB",
+        "Visualização no celular"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "servicos",
+      "id": "cftv-loja",
+      "name": "Monitoramento de loja e estoque",
+      "cat": "CFTV",
+      "local": "Pinheiros, São Paulo",
+      "desc": "12 câmeras com visão noturna, cobrindo caixa, entrada e depósito.",
+      "specs": [
+        "12 câmeras",
+        "Visão noturna",
+        "Alertas de movimento"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "servicos",
+      "id": "rede-escritorio",
+      "name": "Rede estruturada para escritório",
+      "cat": "Redes",
+      "local": "Vila Olímpia, São Paulo",
+      "desc": "Cabeamento Cat6, rack organizado, patch panel e Wi-Fi com roaming entre andares.",
+      "specs": [
+        "32 pontos Cat6",
+        "Rack 12U",
+        "3 Access Points"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "servicos",
+      "id": "manut-pc",
+      "name": "Manutenção em lote de 15 computadores",
+      "cat": "Manutenção",
+      "local": "Santo André, SP",
+      "desc": "Limpeza, troca de pasta térmica, upgrade de SSD e padronização do sistema.",
+      "specs": [
+        "15 máquinas",
+        "SSD novo",
+        "Windows atualizado"
+      ],
+      "ativo": true
+    },
+    {
+      "tipo": "servicos",
+      "id": "infra-sala",
+      "name": "Infraestrutura de sala técnica",
+      "cat": "Infraestrutura",
+      "local": "Santana, São Paulo",
+      "desc": "Organização de rack, nobreak, switch gerenciável e documentação da rede.",
+      "specs": [
+        "Nobreak 2200VA",
+        "Switch 24 portas",
+        "Rede documentada"
+      ],
+      "ativo": true
+    }
+  ]
+}
